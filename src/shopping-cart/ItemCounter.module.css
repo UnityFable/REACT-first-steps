@@ -1,0 +1,9 @@
+.itemRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.itemText {
+  width: 150px;
+}
