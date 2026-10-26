@@ -28,9 +28,9 @@ export const ItemCounter = ({ item, quantity = 1 }: Props) => {
     >
       <span
         className={styles.itemText}
-        // style={{
-        //   width: 150,
-        // }}
+        style={{
+          color: count === 1 ? 'red' : 'black',
+        }}
       >
         {item}
       </span>
